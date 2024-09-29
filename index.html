@@ -1,0 +1,78 @@
+body<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/imgs/galaxy2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./assets/imgs/galaxy2.png">
+</head>
+<body>
+    <header class="p-2 flex gap-2 items-center justify-center">
+        <img class="w-7 h-7" src="./assets/imgs/planet.png" alt="Planet">
+        <h1 class="text-3xl font-bold">Planet</h1>
+        <button id="logOutbtn"
+            class="border border-2 border-red-700 rounded py-1 px-3 bg-red-600 text-white absolute right-4">Logout</button>
+    </header>
+    <nav class="p-2 flex">
+        <a href="./index.html">Courses</a>
+        <a href="./dropshipping.html">Dropshipping</a>
+        <a href="./cars.html">Cars</a>
+    </nav>
+    <br>
+
+   
+    <div class="flex grid-cols-3 gap-8 justify-center">
+       <div class="flex grid-cols-3 gap-8 justify-center">
+        <div class="p-11 rounded-md bg-sky-950 px-10 py-3 flex flex-col justify-between">
+            <img class="mx-8 my-0" src="./assets/imgs/ISO_C++_Logo.svg" height="200px" width="195px" alt="C++ Logo">
+            
+            <div class="mx-8">
+                <h2 class="my-2 text-white">Beginning C++ Programming</h2>
+            </div>
+        
+            <div class="flex justify-center mt-auto">
+                <a href="https://www.udemy.com/course/beginning-c-plus-plus-programming/">
+                    <button class="px-20 py-4 bg-violet-800 rounded-full text-white">Buy</button>
+                </a>
+            </div>
+        </div>
+        
+
+      
+        <div class="p-11  rounded-md bg-sky-950 px-10 py-3">
+            <img class="mx-8 my-0" src="./assets/imgs/Java_programming_language_logo.svg.png" height="150px" width="195px" alt="C++ Logo">
+            <div class="mx-8 inset-x-0 bottom-0 mt-6">
+                <h2 class="my-2 text-white">Beginning JAVA Programming</h2>
+                <a href="https://www.udemy.com/course/java-the-complete-java-developer-course/">
+                    <button class="px-20 py-4 bg-violet-800 rounded-full text-white mx-2 my-0">Buy</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="p-11 rounded-md bg-sky-950 px-10 py-3 flex flex-col justify-between">
+            <img class="mx-8 my-0" src="./assets/imgs/C_Sharp_Logo_2023.svg.png" height="200px" width="195px" alt="C++ Logo">
+            
+            <div class="mx-8">
+                <h2 class="my-2 text-white">Beginning C# Programming</h2>
+            </div>
+        
+            <div class="flex justify-center mt-auto">
+                <a href="https://www.udemy.com/course/complete-csharp-masterclass/">
+                    <button class="px-20 py-4 bg-violet-800 rounded-full text-white">Buy</button>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+
+
+
+    <script src="./js/main.js" type="module"></script>
+
+</body>
+</html>

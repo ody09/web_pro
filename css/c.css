@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ background: #131c30;
+    color: #fff;}
+
+h2,h3,p,li,a,figcaption{color:white}
+
+img{width:400px;height:400px;padding:3px 
+
+}
+table,th,td{color:white;border:5px solid white;
+border-collapse:collapse;padding:5px;margin:30px 10px 50px 300px
+}
+#hh{
+
+}
+
+header {
+    background-color: #dcdcdc;
+    color: black
+}
+
+header, nav {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid #fff;
+}
+
+nav a {
+    padding: 5px 20px;
+}
+
+nav a:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+
+nav a:hover {
+    transition: all .1s ease-in-out;
+    color: black;
+    background-color: #dcdcdc;
+}
